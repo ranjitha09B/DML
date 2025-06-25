@@ -6,10 +6,10 @@ USE EMPL;
 
 -- Create the employees table
 CREATE TABLE employees (
-    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    id VARCHAR(255) PRIMARY KEY AUTO_INCREMENT,
     name TEXT NOT NULL unique,
     age INTEGER,
-    department TEXT,
+    department VARCHAR(100),
     salary REAL
 );
 
